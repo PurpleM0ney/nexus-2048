@@ -1,3 +1,12 @@
+function addToLoaderLog(html) {
+  const div = document.createElement("div");
+  div.innerHTML = html;
+  while (loader.children.length >= 2) {
+    loader.removeChild(loader.firstChild);
+  }
+  loader.appendChild(div.firstChild);
+}
+
 
 document.addEventListener("DOMContentLoaded", () => {
   const body = document.body;
