@@ -12,13 +12,4 @@ A modular twist on the classic 2048 — now infused with zero-knowledge circuits
 - 🧠 Merge zk-modules like `Input`, `Circuit`, `Verifier`, `Proof`
 - 📜 Live compiler-style log output with color-coded phases
 - 🌐 Runs entirely in-browser — no dependencies, no wallets
-- 💻 Open-source, MIT-licensed, plug-and-play
-
----
-
-## 🚀 How to Deploy Locally
-
-```bash
-git clone https://github.com/PurpleM0ney/nexus-2048.git
-cd nexus-2048
-open index.html
+- 💻 Open-source, plug-and-play
